@@ -109,8 +109,8 @@
         ship1video = new YT.Player( setvideoplace+'1', {
           width: setvideowidth,
           height: setvideoheight,
-          videoId: '9KmRakiUPRs',
-          origin: 'http://demo.bqbs.ru',
+          videoId: 'djb5qhyx0os',
+          origin: 'http://questfactory.ru',
           playerVars: { 'controls': 0, 'showinfo': 0 },
           events: {
             'onStateChange': onPlayerStateChange
@@ -119,8 +119,8 @@
         ship2video = new YT.Player( setvideoplace+'2', {
           width: setvideowidth,
           height: setvideoheight,
-          videoId: 'yeS-MUO4SnU',
-          origin: 'http://demo.bqbs.ru',
+          videoId: 'djb5qhyx0os',
+          origin: 'http://questfactory.ru',
           playerVars: { 'controls': 0, 'showinfo': 0 },
           events: {
             'onStateChange': onPlayerStateChange
