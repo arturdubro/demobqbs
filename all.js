@@ -278,7 +278,7 @@ $(document).ready(function(){
         var finishedbg = (stages*2)+'0% 100%';
         var input = $('#simple').val();
         if (currentcellclass == 'ship1') {
-            if (input == 'победа' || input == 'Победа') {
+            if (input == 'одиннадцать') {
                 $('#alert').children().hide();
                 $(currentcellid).removeClass('ship1').addClass('sink1');
                 $('.sink1').show();
@@ -288,7 +288,7 @@ $(document).ready(function(){
             } else $('#simple').val(null);
         }
         if (currentcellclass == 'ship2b') {
-            if (input == 'цель' || input == 'Цель') {
+            if (input == 'розовый' || input == 'розовая') {
                 $('#alert').children().hide();
                 var a = [];
                 $('td.ship2b').each(function(){
